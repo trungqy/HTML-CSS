@@ -1,0 +1,64 @@
+.trangChu .navBar .menu-1 {
+    margin-left: 0;
+    position: inherit;
+}
+.navBar .menu-1 .item-menu-1 {
+    display: block;
+    padding: 10px;
+}
+.trangChu .navBar .desc-menu {
+    float: right;
+    margin-right: 0;
+    position: absolute;
+    padding: 9px;
+    padding-top: 40px;
+}
+
+
+.tron-goi .img-chung {
+    width: 50%;
+    padding-left: 0px;
+    padding-bottom: 60px;
+    position: relative;
+    right: 40px;
+}
+.tin-tuc .container-tin-tuc .waraper-tin-tuc .img-content {
+    width: 100%;
+}
+.tin-tuc .container-tin-tuc .waraper-tin-tuc .title-tin-tuc-desc {
+    font-size: 18px;
+}
+
+.tin-tuc .container-tin-tuc .waraper-tin-tuc .title-tin-tuc-desc-1 {
+    font-size: 16px;
+    width: 330px;
+}
+
+.btn-1 {
+    margin-top: 30px;
+}
+.lien-he .container-lien-he {
+    display: inline-block;
+}
+.lien-he .container-lien-he .logo-container-lien-he {
+    padding-left: 375px;
+}
+.lien-he .pho-bien {
+    margin-left: 55px;
+}
+.lien-he .container-lien-he .lien-he-container {
+    margin-left: 55px;
+    margin-bottom: 20px;
+}
+.tin-tuc-container{
+    margin-left: 55px;
+    margin-bottom: 20px;
+}   
+.lien-he .pho-bien .img-pho-bien {
+    width: 50%;
+}
+
+.gopy {
+    margin-top: 30px;
+    margin-left: 55px;
+}

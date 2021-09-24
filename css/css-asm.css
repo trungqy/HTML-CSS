@@ -1,0 +1,655 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,regular,italic,600,600italic,700,700italic,800,800italic);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Open sans";
+}
+
+/* trang chu */
+
+
+.trangChu {
+    background: url(http://mauweb.monamedia.net/travelvn/wp-content/uploads/2019/01/cau-vang-da-nang-la-mot-trong-nhung-noi-dang-ghe-tham-nhat-nam-2018-theo-tap-chi-time.jpg) no-repeat;
+    height: 700px;
+}
+
+.mask {
+    background-color: rgb(0, 0, 0, 0.3);
+    height: 100%;
+}
+
+.navBar .menu-1 .item-menu-1 {
+    display: inline-block;
+}
+
+.trangChu .navBar .logo {
+    margin-left: 150px;
+}
+
+.trangChu .navBar .menu-1 {
+    margin-left: 420px;
+    position: relative;
+    bottom: 60px;
+}
+
+.trangChu .navBar .menu-1 .item-menu-1 a {
+    padding: 8px 8px;
+}
+
+.trangChu .navBar .menu-1 .item-menu-1 a:hover {
+    color: #FF9C13;
+    border-bottom: 3px solid #FF9C13;
+}
+
+.trangChu .navBar .menu-1 .item-menu-1 a {
+    color: white;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 700;
+}
+
+.trangChu .navBar .desc-menu {
+    position: relative;
+    float: right;
+    top: 365px;
+    color: white;
+    text-align: left;
+    margin-right: 200px;
+}
+
+.trangChu .navBar .desc-menu .title-desc-1 {
+    font-weight: 300;
+    font-size: 46px;
+}
+
+.trangChu .navBar .desc-menu .title-desc-2 {
+    font-weight: 700;
+    font-size: 56px;
+}
+
+
+/* tìm kiếm */
+
+
+.tim-kiem .menu-level-1{
+    text-align: center;
+}
+.menu-level-1 a{
+    color: black;
+    font-weight: 500;
+}
+.menu-level-1{
+    color: black;
+    background-color: #F7F7F7;
+}
+
+.menu-level-1 .item-menu-level-1:hover{
+    color: #FF9C00;
+    background-color: white;
+}
+.menu-level-1 .item-menu-level-1{
+    display: inline-block;
+}
+.menu-level-1 .item-menu-level-1:hover .menu-level-2{
+    display: block;
+}
+
+.menu-level-1 .item-menu-level-1 .title-menu-level-1{
+    padding: 30px 20px;
+    display: inline-block;
+}
+.trangChu .navBar .menu-1 .fas {
+    color: white;
+    padding-left: 9px;
+    padding-bottom: 8px;
+}
+.trangChu .navBar .menu-1 .fas:hover {
+    color: #FF9C00;
+}
+
+.trangChu .navBar .menu-1 .ccc{
+    padding-right: 20px;
+}
+
+.menu-level-2{
+    position: absolute;
+    background-color: white;
+    padding: 10px 20px;
+    border: 1px solid #dddd;
+    display: none;
+}
+.menu-level-2 a{
+    color: #444;
+}
+.menu-level-2 .item-menu-level-2 {
+    padding: 10px 0;
+}
+.menu-level-2 .item-menu-level-2 #ha{
+    margin-right: 15px;
+}
+
+.menu-level-2 .item-menu-level-2 :hover{
+    text-decoration: underline;
+    color: #FF9C00;
+}
+
+
+/* place game */
+
+
+.place-game .place-content .title-content-place {
+    text-align: center;
+    margin: 60px 0;
+}
+
+.place-game .place-content {
+    text-align: center;
+}
+
+.place-game .place-content .title-content-place .title-content {
+    margin-bottom: 10px;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 46px;
+}
+
+.place-game .place-content .title-content-place .title-content-desc {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 46px;
+}
+
+.place-game .place-content .dia-diem .myKhue{
+    background: url(http://mauweb.monamedia.net/travelvn/wp-content/uploads/2019/01/0-3.jpg) no-repeat center center/cover;  
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.place-content{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.place-game .place-content .dia-diem .img-container{
+    width: 32%;
+    height: 250px;
+    max-width: 100%;
+    max-height: 100%;
+    float: left;
+    margin-right: 2%;
+}
+
+.place-game .place-content .dia-diem  .last-item{
+    margin-right: 0%;
+}
+.place-game .place-content .dia-diem .mykhue-item {
+    width: 100%;
+    height: 100%;
+}
+.place-game .place-content .dia-diem .haiVan{
+    background:url(http://mauweb.monamedia.net/travelvn/wp-content/uploads/2019/01/1057_deo_hai_van.jpg) no-repeat center center/cover;
+    display: inline-block;  
+    border-radius: 10px;
+} 
+
+.place-game .place-content .dia-diem .baNa{
+    background:url(http://mauweb.monamedia.net/travelvn/wp-content/uploads/2019/01/bana2.jpg)no-repeat center center/cover;
+    display: inline-block;   
+    border-radius: 10px;
+}
+.place-game .pp{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    top :200px;
+    right: 50px;   
+}
+.place-game .mask {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    border-radius: 10px;
+    transition: 2s;
+}
+.place-game .dia-diem .img-container:hover .mask{
+    display: block;
+    transition:1s ;
+}
+.place-game .place-content .dia-diem{
+    overflow: auto;
+}
+
+
+/* tour tham quan */
+
+
+.tron-goi{
+    margin-top: 80px;
+    background: url(http://mauweb.monamedia.net/travelvn/wp-content/uploads/2019/01/hue.jpg) no-repeat center center/cover;
+    display: inline-block;
+}
+.tron-goi .tham-quan-container .waraper{
+    margin-left: 100px;
+}
+
+.tron-goi .mask{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    width: 100%;
+}
+
+.tron-goi .mask .tour-title{
+    text-align: center;
+    color: #ffffff;
+    padding-top: 50px;
+    margin-bottom: 60px;
+    margin-top: 50px;
+}
+.tron-goi .mask .tour-title .tour-title-desc-1{
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 46px;
+}
+.tron-goi .mask .tour-title .tour-title-desc-2{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 20px;
+}
+.tron-goi .title-tham-quan{
+    font-size: 13px;
+    line-height: 21px;
+    padding: 10px 10px 30px 10px;
+}
+.tron-goi .title-tham-quan .title-dong-giang ,.title-xu-quang ,.title-hoi-an{
+    font-size: 16px;
+    font-weight: 600;
+}
+.tron-goi .title-tham-quan .title-dong-giang-gia ,.title-xu-quang-gia ,.title-hoi-an-gia{
+    color: #2DA2E1;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 0 0 15 px 0;
+}
+.tron-goi .img-chung{
+    width: 30%;
+    float: left;
+    padding: 20px;
+    padding-left: 30px;
+    padding-bottom: 100px;
+}
+
+.img-item{
+    height: 240px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.tron-goi .img-item img{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+
+}
+.tron-goi .mask .mask1 .tham-quan-container .bg-white{
+    background-color: white;
+    border-radius: 20px;
+}
+
+
+/* dac san  */
+
+
+.dac-san .mon-an .img-container .ech{
+    background: url(http://mauweb.monamedia.net/travelvn/wp-content/uploads/2019/01/105152_og_1.jpeg) no-repeat center center/cover;
+    border-radius: 10px;
+}
+.dac-san .mon-an .img-container .bun{
+    background: url(http://mauweb.monamedia.net/travelvn/wp-content/uploads/2019/01/2-19.jpg) no-repeat center center/cover;
+    border-radius: 10px;
+}
+.dac-san .mon-an .img-container .bun{
+    background: url(http://mauweb.monamedia.net/travelvn/wp-content/uploads/2019/01/mon-ngon-da-nang-300x300.jpg) no-repeat center center/cover;
+    border-radius: 10px;
+}
+.dac-san .mon-an .img-container .banh-xeo{
+    background: url(http://mauweb.monamedia.net/travelvn/wp-content/uploads/2019/01/banh-xeo.jpg) no-repeat center center/cover;
+    border-radius: 10px;
+}
+.dac-san .mon-an .img-container .banh{
+    background: url(http://mauweb.monamedia.net/travelvn/wp-content/uploads/2019/01/banh-goi.jpg) no-repeat center center/cover;
+    border-radius: 10px;
+}
+.dac-san .mon-an .img-container .cua{
+    background: url(http://mauweb.monamedia.net/travelvn/wp-content/uploads/2019/01/cua.jpg) no-repeat center center/cover;
+    border-radius: 10px;
+}
+.dac-san .mon-an .img-container .com{
+    background: url(http://mauweb.monamedia.net/travelvn/wp-content/uploads/2019/01/com-ga.jpg) no-repeat center center/cover;
+    border-radius: 10px;
+}
+.dac-san .mon-an .img-container img{
+   opacity: 1;
+}
+.dac-san .mon-an .img-container{
+    width: 32%;
+    height: 250px;
+    max-width: 100%;
+    max-height: 100%;
+    float: left;
+    margin-right: 1%;
+}
+.dac-san .mon-an .img-container .last-item{
+    margin-right: 0;
+}
+.mon-an-dac-san{
+    max-width: 1100px;
+    margin: auto;
+}
+.dac-san .mon-an-dac-san .mon-an .mon-an-item {
+    width: 100%;
+    height: 100%;
+}
+.dac-san .mon-an-dac-san .mon-an .img-container {
+    margin-top: 1%;
+}
+.dac-san .mon-an-dac-san .mon-an .img-container .ppp{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    top: 210px;
+    left: 20px;
+}
+.dac-san .mon-an-dac-san .mon-an .img-container .mask{
+    background-color: rgb(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+.dac-san .mon-an-dac-san .title-dac-san{
+    text-align: center;
+    margin: 70px 0 70px 0;
+}
+.dac-san .mon-an-dac-san .title-dac-san .title-dac-san-1{
+    font-size: 35px;
+    line-height: 46px;
+    font-weight: 400;
+}
+
+.dac-san .mon-an-dac-san .title-dac-san .title-dac-san-2{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.dac-san .mon-an-dac-san{
+    overflow: auto;
+}
+
+
+/* khuyen mai */
+
+
+.khuyen-mai{
+    background: url(http://mauweb.monamedia.net/travelvn/wp-content/uploads/2019/01/pexels-photo-92090.jpeg) no-repeat center center/cover;
+    margin-top: 70px;
+}
+.khuyen-mai .title-khuyen-mai{
+    color: white;
+    padding: 80px 0 80px 150px;
+    width: 50%;
+    text-align: center;
+}
+.khuyen-mai .title-khuyen-mai .item-title-khuyen-mai{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    padding:0 0 20px 50px ;
+}
+.khuyen-mai .title-khuyen-mai .item-title-1{
+    font-size: 42px;
+    line-height: 55px;
+    font-weight: 400;
+}
+.khuyen-mai .title-khuyen-mai .item-title-2{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    padding:20px 0 40px 50px ;
+}
+.khuyen-mai .title-khuyen-mai .btn{
+    padding: 13px;
+    font-size: 12px;
+    border: 0px  none;
+    border-radius: 10px;
+    color: white;
+    margin-top: 10px;
+    margin:20px 0 40px 30px  ;
+}
+
+#dat{
+    background-color: #FF9C00;
+    margin-right: 10px;
+    position: relative;
+    left: 30px;
+}
+.khuyen-mai .title-khuyen-mai #dat:hover{
+    background-color: #95600a;
+}
+#xem{
+    background-color: #1196DD;
+}
+.khuyen-mai .title-khuyen-mai #xem:hover{
+    background-color: #0e4670;
+}
+
+
+/* tin tuc */
+
+
+.tin-tuc{
+    background-color: #F7F7F7;
+}
+.tin-tuc .title-tin-tuc{
+    text-align: center;
+    padding: 80px 0;
+}
+.tin-tuc .title-tin-tuc .title-tin-tuc-1{
+    font-size: 35px;
+    line-height: 46px;
+    font-weight: 400;
+}
+.tin-tuc .title-tin-tuc .title-tin-tuc-2{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.tin-tuc .container-tin-tuc .waraper-tin-tuc .img-content{
+    width: 33%;
+    float: left;
+    overflow: hidden;
+    height: 350px;
+}
+
+.tin-tuc .container-tin-tuc .waraper-tin-tuc .img-chung img{
+    width: auto;
+    height: 100%;
+}
+.tin-tuc .container-tin-tuc .waraper-tin-tuc .img-chung {
+    width: 100%;
+    height: 100%;
+}
+.tin-tuc .container-tin-tuc .waraper-tin-tuc{
+    width: 1100px;
+    margin: 0 auto;
+}
+.tin-tuc .container-tin-tuc .waraper-tin-tuc .tin-tuc-desc{
+    padding: 50px 10px 60px 15px;
+}
+.tin-tuc .container-tin-tuc .waraper-tin-tuc .title-tin-tuc-desc{
+    font-size: 20px;
+    line-height: 26px;
+}
+.tin-tuc .container-tin-tuc .waraper-tin-tuc .title-tin-tuc-desc-1{
+    font-size: 16px;
+    line-height: 26px;
+    padding-top: 20px;
+}
+.btn-1{
+    border: none;
+    border-bottom: 1px solid #FF9C13;
+    background: none;
+    color:#FF9C13;
+    margin-bottom: 20px;
+}
+.tin-tuc .container-tin-tuc{
+    overflow: auto  ;
+}
+
+
+/* lien he */
+
+
+.lien-he{
+    background: url(http://mauweb.monamedia.net/travelvn/wp-content/uploads/2018/02/bg-footer.jpg) no-repeat center center/cover;
+    margin-top: 30px;
+}
+.lien-he .container-lien-he{
+    display: flex;
+}
+.lien-he .logo-container-lien-he{
+    flex: 1;
+}
+.lien-he .container-lien-he{
+    flex: 1;
+    color: #A5A5A5;
+    padding-top: 90px;
+    margin-right: 100px;
+}
+.lien-he .container-lien-he .lien-he-container{
+    margin-right: 100px;
+}
+.lien-he .container-lien-he .lien-he-container h1 ,.tin-tuc-container h1{
+    padding-bottom: 25px;
+}
+.lien-he .container-lien-he .title-lien-he ,.title-tin-tuc ,.title-pho-bien{
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 700;
+}
+.lien-he .container-lien-he p ,.tin-tuc-container li{
+    font-size: 12px;
+    line-height: 19px;
+    font-weight: 400;
+    padding: 5px;
+}
+.lien-he .tin-tuc-container .fas{
+    font-size: 6px;
+    margin: 0 3px 3px 0;
+
+}
+.lien-he .container-tin-tuc{
+    flex: 1;
+}
+.lien-he .pho-bien{
+    flex: 1;
+}
+.lien-he .container-lien-he .logo-container-lien-he img{
+    width: 190px;
+    height: 190px;
+}
+.lien-he .container-lien-he .logo-container-lien-he{
+    padding-left: 150px;
+    padding-bottom: 50px;
+}
+.lien-he .pho-bien .img-pho-bien img{
+    width: auto;
+    height: 62px;
+    float: left;
+    width: 28%;
+}
+.lien-he .pho-bien{
+    margin-left: 100px;
+}
+.lien-he .pho-bien .img-pho-bien{
+    margin-top: 30px;
+}
+.lien-he a{
+    color:#A5A5A5 ;
+}
+.lien-he .hover-w:hover{
+    color:white ;
+}
+.lien-he .container-lien-he .dia-chi .fas{
+    padding-right: 10px;
+}
+.lien-he .container-lien-he .sdtt .fas{
+    padding-right: 10px;
+}
+.lien-he .container-lien-he .email .fas{
+    padding-right: 10px;
+}
+.lien-he .container-lien-he .lien-he-container .icon .fa-facebook-square{
+    padding:5px
+}
+.lien-he .container-lien-he .lien-he-container .icon .fa-instagram{
+    padding:5px
+}
+.lien-he .container-lien-he .lien-he-container .icon .fa-twitter-square{
+    padding:5px
+}
+.lien-he .container-lien-he .lien-he-container .icon .fa-pinterest{
+    padding:5px
+}
+.gopy{
+    border: 1px solid #FF9C13;
+    padding: 10px;
+    text-align: center;
+    width: 15%;
+    margin-left: 600px;
+    
+}
+
+
+/* footer */
+
+
+.footer{
+    background-color: #121212;
+    text-align: center;
+    color: #A5A5A5;
+    font-size: 14px;
+}
+.footer .footerr{
+    padding: 10px;
+}
+.footer p ,.logo-footer{
+    display: inline-block;
+
+}
+.footer .logo-footer img{
+    height: 16px;
+    width: 16px;
+    margin-left:5px ;
+}
+.footer  a{
+    color:#A5A5A5 ;
+}
